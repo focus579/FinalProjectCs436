@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calc">
+    <div id="expression" class="expression"></div>
+    <div id="display" class="display">0</div>
+
+    <div class="keys">
+      <button class="btn-func span-2" id="clear">AC</button>
+      <button class="btn-func" id="back">⌫</button>
+      <button class="btn-op" data-op="÷">÷</button>
+
+      <button class="btn-num">7</button>
+      <button class="btn-num">8</button>
+      <button class="btn-num">9</button>
+      <button class="btn-op" data-op="×">×</button>
+
+      <button class="btn-num">4</button>
+      <button class="btn-num">5</button>
+      <button class="btn-num">6</button>
+      <button class="btn-op" data-op="-">−</button>
+
+      <button class="btn-num">1</button>
+      <button class="btn-num">2</button>
+      <button class="btn-num">3</button>
+      <button class="btn-op" data-op="+">+</button>
+
+      <button class="btn-num span-2">0</button>
+      <button class="btn-num" id="dot">.</button>
+      <button class="btn-eq" id="equals">=</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
