@@ -12,8 +12,8 @@ Final Project วิชา CS436
 
 ### เทคโนโลยี
 * HTML5
-* CSS3 (Grid, Flexbox, Keyframes Animation)
-* JavaScript (ES6)
+* CSS3
+* JavaScript 
 
 ### วิธีรันโปรเจค
 1. ดาวน์โหลดโฟลเดอร์นี้
